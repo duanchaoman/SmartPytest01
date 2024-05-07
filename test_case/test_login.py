@@ -18,4 +18,4 @@ class Test_Pytest():
         assert msg =='OK'
 
 if __name__ == '__main__':
-    pytest.main(['-s', '-r', './test_case/test_login','./test_case/test_login','nul'])
+    pytest.main(['-s', '-r','./test_case/test_login','./test_case/test_login','nul'])
